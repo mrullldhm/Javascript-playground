@@ -1,0 +1,21 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3em;
+  display: block;
+  text-align: center;
+}
+
+#myH1 {
+  font-size: 4em;
+  margin-bottom: 0;
+}
+
+#myReset {
+  background-color: red;
+  color: white;
+}
+
+#myDecrease, #myIncrease {
+  background-color: blue;
+  color: white;
+}
