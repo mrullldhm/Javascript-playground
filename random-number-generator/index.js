@@ -7,7 +7,7 @@ let random2 = Math.floor(Math.random() * 6) + 1;
 console.log(random2);
 
 // Random 0-6
-let random3 = Math.round(Math.random() * 5);
+let random3 = Math.round(Math.random() *6);
 console.log(random3);
 
 // Random 50-100
