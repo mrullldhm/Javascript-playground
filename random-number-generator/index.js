@@ -13,7 +13,7 @@ console.log(random3);
 // Random 50-100
 const min = 50;
 const max = 100;
-let random4 = Math.floor(Math.random() * (max - min)) + min;
+let random4 = Math.round(Math.random() * (max - min)) + min;
 console.log(random4);
 
 // Random Number Genarator
