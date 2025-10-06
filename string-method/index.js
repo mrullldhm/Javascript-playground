@@ -7,7 +7,7 @@ console.log(userName.length);
 
 console.log(userName.trim());
 console.log(userName.toUpperCase());
-console.log(userName.toLocaleLowerCase());
+console.log(userName.toLowerCase());
 console.log(userName.repeat(3));
 
 let result = userName.startsWith(" ");
