@@ -24,7 +24,7 @@ if (result1) {
 } else {
   console.log("Your result not end wih a space");
 }
-let result2 = userName.endsWith(" ");
+let result2 = userName.includes(" ");
 console.log(result2);
 if (result2) {
   console.log("Your result include a space");
