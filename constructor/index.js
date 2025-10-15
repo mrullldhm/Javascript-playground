@@ -1,10 +1,10 @@
 // Constructor = Special method for defining the properties and methods of object
 
 function Car(make, model, year, color) {
-  (this.make = make),
-    (this.model = model),
-    (this.year = year),
-    (this.color = color);
+  this.make = make;
+  this.model = model;
+  this.year = year;
+  this.color = color;
   this.drive = function () {
     console.log(`Your car model is ${this.model}`);
   };
