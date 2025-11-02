@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#myH1 {
+  font-size: 5rem;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3em;
+}
+
+#display {
+  font-size: 3rem;
+}
+
+#control button {
+  font-size: 1rem;
+  margin: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  
+}
