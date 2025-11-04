@@ -46,7 +46,7 @@ console.log(buttons);
 // Remove an Element
 buttons.forEach((button) => {
   button.addEventListener("click", (event) => {
-    event.target.removeE();
+    event.target.remove();
 
     buttons = document.querySelectorAll(".myButton");
   });
