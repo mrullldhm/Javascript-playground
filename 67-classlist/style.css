@@ -1,0 +1,39 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#myH1 {
+  font-size: 5rem;
+}
+
+#myButton {
+  font-size: 4rem;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  font-size: 4rem;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.enabled {
+  background-color: blue;
+  color: white;
+}
+
+.hover {
+  box-shadow: grey;
+  font-weight: bold;
+}
+
+.disabled {
+  background-color: gray;
+}
