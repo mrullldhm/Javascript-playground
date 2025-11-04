@@ -1,0 +1,14 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.myButton {
+  font-size: 4rem;
+  background-color: green;
+  margin: 10px;
+  border: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 15px;
+}
